@@ -3,7 +3,7 @@ services:
     name: n8n
     runtime: image
     image:
-      url: docker.io/n8nio/n8n:1.85.4
+      url: docker.io/n8nio/n8n:1.123.16
     plan: free
     envVars:
       - key: N8N_PORT
